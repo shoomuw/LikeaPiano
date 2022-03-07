@@ -110,9 +110,8 @@ public class MakeaSound: MonoBehaviour
 
     public void Sound()
     {
-        ad.PlayOneShot(ac);
+        ad.Play();
     }
-
 
     public void OnClickUp()
     {
